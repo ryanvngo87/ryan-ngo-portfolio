@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #008080; /* Teal */
+  --secondary-color: #0a1f44; /* Navy Blue */
+  --accent-color: #00cccc; /* Lighter Teal */
+  --background-color: #0d1b2a; /* Dark Navy Background */
+  --text-color: #e0e1dd; /* Light Text */
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: var(--primary-color);
+}
+
+.home,
+.about,
+.projects,
+.contact {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: var(--accent-color);
+}
