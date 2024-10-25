@@ -9,7 +9,7 @@ const Home = () => {
         <h1>
           Hello, I'm <span className="name-highlight">[Ryan Ngo]</span>
         </h1>
-        <p>I create modern web applications with efficiency and elegance.</p>
+        <p>I like to build stuff.</p>
         <div className="cta-buttons">
           <Link to="/projects" className="btn">
             View My Projects
@@ -17,11 +17,19 @@ const Home = () => {
           <Link to="/contact" className="btn btn-secondary">
             Contact Me
           </Link>
+          <a
+            href="/Ryan Ngo Resume 10-25-2024.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-resume"
+          >
+            Resume/CV
+          </a>
         </div>
       </div>
       <div className="home-image">
         <img
-          src="https://via.placeholder.com/300"
+          src="./images/ryan-ngo.jpg"
           alt="profile illustration"
           className="profile-img"
         />
