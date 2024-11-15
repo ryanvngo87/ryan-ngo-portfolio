@@ -34,9 +34,14 @@ const About = () => {
             alt="Skills Icon"
             className="info-icon"
           />
-          <h4>Skills</h4>
+          <h3>Skills</h3>
           <p>
-            JavaScript, React, C#, ASP.NET MVC, Entity Framework, SQL, HTML, CSS
+            <b>Languages: </b> Java, C#, JavaScript, CSS, HTML, SQL
+          </p>
+          <p>
+            <b>Technologies:</b> ASP.NET, Entity Framework, SQL Server
+            Management Studio, Git, React, DevExpress, Azure DevOps Server,
+            Visual Studio, VS Code
           </p>
         </div>
         <div className="info-card">
@@ -45,10 +50,15 @@ const About = () => {
             alt="Education Icon"
             className="info-icon"
           />
-          <h4>Education</h4>
+          <h3>Education</h3>
           <p>
-            BS in Computer Information Systems & Technology - University of
-            Texas at Dallas
+            <img
+              src="/icons/utd_logo.png"
+              alt="UTD Logo"
+              className="university-logo"
+            />
+            B.S. in Computer Information Systems & Technology - The University
+            of Texas at Dallas
           </p>
         </div>
         <div className="info-card">
@@ -57,7 +67,7 @@ const About = () => {
             alt="Experience Icon"
             className="info-icon"
           />
-          <h4>Experience</h4>
+          <h3>Experience</h3>
           <p>Software Development Intern - Daisy Brand, Dallas, TX</p>
         </div>
       </div>

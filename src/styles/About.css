@@ -78,8 +78,8 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-.info-card h4 {
-  font-size: 1.5rem;
+.info-card h3 {
+  font-size: 1.75rem;
   color: var(--accent-color);
   margin-bottom: 10px;
 }
@@ -96,6 +96,13 @@
   animation: bounce 2s infinite;
 }
 
+.university-logo {
+  width: 50px;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
+
 /* Icon bounce animations */
 @keyframes bounce {
   0%,
@@ -103,6 +110,6 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
