@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #008080; /* Teal */
+  --secondary-color: #0a1f44; /* Navy Blue */
+  --accent-color: #00cccc; /* Lighter Teal */
+  --background-color: #0d1b2a; /* Dark Navy Background */
+  --text-color: #e0e1dd; /* Light Text */
+}
+
+.about-container {
+  padding: 5% 10%;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-header h2 {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img-2 {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.bio-section {
+  flex: 2;
+}
+
+.bio-section h3 {
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+
+.bio-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.info-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-card {
+  flex: 1 1 300px;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.info-card h4 {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.4;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  animation: bounce 2s infinite;
+}
+
+/* Icon bounce animations */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
